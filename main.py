@@ -1,5 +1,8 @@
+from ast import Pass
+
+
 def main():
-    print('hello world')
+    print(Pass)
 
 ##Adding feature for calculator
 def adding(x,y):
