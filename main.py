@@ -1,5 +1,5 @@
 def main():
-    pass
+    
 
 def multiplication(n1, n2):
     result = n1 * n2
