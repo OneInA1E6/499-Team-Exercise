@@ -29,8 +29,14 @@ def divideWithRemainder(x, y):
 
 
 class Tests(unittest.TestCase):
-    def test(self):  #method that tests the function 
+    def testAdd(self):  #method that tests the program's functions 
         self.assertEqual(adding(4,2),6) #testing addition feature
+        
+    def testDivide(self):  #method that tests the program's functions 
+        self.assertEqual(divide(7,2),3.5) #testing division feature
+        
+    def testDivideWithRemainder(self):  #method that tests the program's functions 
+        self.assertEqual(divideWithRemainder(9,2),(4,1)) #testing division feature with remainder
         
 if __name__ == '__main__':
     unittest.main()
