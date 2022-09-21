@@ -1,4 +1,5 @@
 import math
+import unittest
 
 def main():
     pass
@@ -24,3 +25,13 @@ def divide(x, y):
 ##and returns the largest whole division of x by y, and the remainder
 def divideWithRemainder(x, y):
     return math.floor(x/y), x%y
+
+
+
+class Tests(unittest.TestCase):
+    def test(self):  #method that tests the function 
+        self.assertEqual(adding(4,2),6) #testing addition feature
+        
+if __name__ == '__main__':
+    unittest.main()
+
