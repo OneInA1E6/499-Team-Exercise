@@ -4,6 +4,8 @@ import unittest
 def main():
     pass
 
+##This function takes two number inputs, multiplies them, 
+##and returns the result.
 def multiplication(n1, n2):
     result = n1 * n2
     print('The result is: ', result)
@@ -37,6 +39,9 @@ class Tests(unittest.TestCase):
         
     def testDivideWithRemainder(self):  #method that tests the program's functions 
         self.assertEqual(divideWithRemainder(9,2),(4,1)) #testing division feature with remainder
+    
+    def testMultiplication(self): #method that tests the program's functions
+        self.assertEqual(multiplication(4, 5), 20) #testing multiplication feature.
         
 if __name__ == '__main__':
     unittest.main()
