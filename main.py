@@ -1,3 +1,5 @@
+import math
+
 def main():
    pass
 
@@ -10,6 +12,9 @@ def adding(x,y):
 def divide(x, y):
     return (x/y)
 
-
+##This function takes in two numbers, x (the numerator) and y (the denominator),
+##and returns the largest whole division of x by y, and the remainder
+def divideWithRemainder(x, y)
+    return math.floor(x/y), x%y
 
 
