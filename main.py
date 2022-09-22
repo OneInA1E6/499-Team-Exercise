@@ -33,7 +33,10 @@ def divideWithRemainder(x, y):
 class Tests(unittest.TestCase):
     def testAdd(self):  #method that tests the program's functions 
         self.assertEqual(adding(4,2),6) #testing addition feature
-        
+    
+    def testSubtract(self):
+        self.assertEqual(subtract(7,6),1) #testing subtract feature
+       
     def testDivide(self):  #method that tests the program's functions 
         self.assertEqual(divide(7,2),3.5) #testing division feature
         
