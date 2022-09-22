@@ -34,7 +34,7 @@ class Tests(unittest.TestCase):
     def testAdd(self):  #method that tests the program's functions 
         self.assertEqual(adding(4,2),6) #testing addition feature
     
-    def testSubtract(self):
+    def testSubtract(self): #method that test the program's functions
         self.assertEqual(subtract(7,6),1) #testing subtract feature
        
     def testDivide(self):  #method that tests the program's functions 
@@ -48,4 +48,3 @@ class Tests(unittest.TestCase):
         
 if __name__ == '__main__':
     unittest.main()
-
